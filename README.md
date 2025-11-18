@@ -28,13 +28,17 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
    cd Proyecto_Final_Almacenamiento_Dato
    
 2. (Opcional) Crear y activar un entorno virtual:
-python -m venv venv
-source venv/bin/activate   # En macOS / Linux
-# .\venv\Scripts\activate  # En Windows
 
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # En macOS / Linux
+   # .\venv\Scripts\activate  # En Windows
+   
 3. Instalar dependencias:
+ ```bash
 pip install -r requirements.txt
-Configurar variables de entorno en el archivo .env (por ejemplo, cadena de conexión a la base de datos y otros parámetros de configuración).
-Ejecución del proyecto
-Desde la raíz del repositorio, ejecuta:
+```
+
+4. Ejecución del proyecto (desde la raíz del repositorio):
+```bash
 uvicorn app.main:app --reload
