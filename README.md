@@ -7,8 +7,8 @@ La API permite gestionar y almacenar información relacionada con eventos y su c
 
 - **Python 3.10+**
 - **FastAPI**
-- **Uvicorn** (servidor ASGI)
-- **SQLAlchemy** / ORM (según configuración interna del proyecto)
+- **Uvicorn** 
+- **SQLAlchemy** 
 - Archivo `.env` para variables de entorno
 
 ## Requisitos previos
@@ -26,6 +26,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
    ```bash
    git clone https://github.com/Sxg0673/Proyecto_Final_Almacenamiento_Dato.git
    cd Proyecto_Final_Almacenamiento_Dato
+   
 2. (Opcional) Crear y activar un entorno virtual:
 python -m venv venv
 source venv/bin/activate   # En macOS / Linux
